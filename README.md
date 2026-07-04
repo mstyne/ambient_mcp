@@ -2,6 +2,8 @@
 
 A FastMCP server that provides tools to interact with the Ambient Weather API. This server allows you to fetch real-time weather data and device information from your Ambient Weather stations.
 
+*This code was largely written by the Gemma 4 LLM.*
+
 ## Features
 
 - **List Devices**: Retrieve a list of all your available Ambient Weather devices along with their most recent data.
@@ -47,6 +49,7 @@ fastmcp run src/server.py --transport http --host 0.0.0.0 --port 8000
 
 - **List Devices**: `GET /mcp/list_devices`
 - **Get Device Data**: `GET /mcp/get_device_data` (requires `device_id`)
+
 
 ## License
 
